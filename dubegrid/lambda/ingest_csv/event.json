@@ -1,0 +1,11 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": { "name": "dubegrid-data-ingest" },
+        "object": { "key": "sample.csv" }
+      }
+    }
+  ]
+}
+

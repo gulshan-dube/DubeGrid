@@ -1,0 +1,44 @@
+{
+    "Configuration": {
+        "FunctionName": "DubeGridIngestCSV",
+        "FunctionArn": "arn:aws:lambda:us-east-1:487527603759:function:DubeGridIngestCSV",
+        "Runtime": "python3.12",
+        "Role": "arn:aws:iam::487527603759:role/DubeGridLambdaRole",
+        "Handler": "lambda_ingest_csv.lambda_handler",
+        "CodeSize": 475,
+        "Description": "",
+        "Timeout": 30,
+        "MemorySize": 512,
+        "LastModified": "2025-08-14T14:03:36.048+0000",
+        "CodeSha256": "0PF6RTneZNUc36asNktwoqmyIEfN/b4ycIvaE9cOEV0=",
+        "Version": "$LATEST",
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "3d8e414a-b18d-46e0-a3cf-9b5187af9fc4",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:us-east-1::runtime:aa140c0e9a9c41d993cb36eaf76013968a27ec935d7665a4368d6b0ba10a0f7e"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/DubeGridIngestCSV"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/487527603759/DubeGridIngestCSV-ea0f738c-88c0-4233-bb58-5ce62e531cb2?versionId=ofDviTK5GFTLBrvQx5QmYQdgkindsSdE&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCAzbmB52knuHr8f9jlGSij4TV0UQokmEUfHQnod%2B1YgQIgT0swbYli%2BJBeDmibNPHkbMpNLC1VAYz1a%2FWu%2BXK0DN4qiQIIRxAAGgw3NDk2Nzg5MDI4MzkiDAy5i2RxSRcJ09%2Fe%2BCrmAUDl%2F94sWmqN0XRDeD5VFY8ado9i0mpxCZZz%2FbPomRwvoykDE3y82criO6qWwDua7Q3zub7vIle2S5kLTFTv19Ivdq3Hoxc%2FzgbqrVwC0tNJaGrHRQ%2FzMtY55%2FOO7i5EEcqd7IQwotPZK8SO30kxlIOtzRrMA%2BdCtfbzUPIBg40WGXtLk2ZoaBLiVQaX%2Fj3aVsc4x2zgzgpJXjRI5pWnTq7UNLpUopsKAdjGufDblSgZMhbiWWraEq1CL6OrbUT1FrslqhMkSOhATtYdOLLPLlG2avHFXVZWN9dqCYMZ6yaUDu0hZoBPMJXZ98QGOo8BXxOwxZyE36AdcpMsIISqWuSIdTZjgrTPDky0YcrrXv3%2BYe7%2BtH8YOssJ7eu0Vd0r7MiM7eha0kFEf3S8YXtjAmlhyk7usXmCDoqBu%2BpsH4ezQqbaThlM9g6%2F7lz1lZu%2B50nImd9onMoN3bmT9JTmAPv01edDWfZ%2B%2B4iULuon5AComLJjf5kXapc5RMIDOIE%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250814T140652Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3TOHO23P6%2F20250814%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5c2aa1b52f36cd341fe721c61a19fd77be8c9f7dc9f2745db164aeac00635361"
+    }
+}
