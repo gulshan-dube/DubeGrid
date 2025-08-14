@@ -4,6 +4,8 @@ Event‑Driven Cloud Data Pipeline on AWS (LV Load Monitor Edition)
 
 **DubeGrid** is a hands‑on cloud engineering project that builds a **serverless, event‑driven ingestion pipeline** for UK substation load data. It demonstrates **AWS event triggers, serverless compute, and structured storage** — from raw CSV in S3 to asset‑level insights in DynamoDB and Athena.
 
+**Data source:** [LV Load Monitor Data – National Grid Connected Data Portal](https://connecteddata.nationalgrid.co.uk/dataset/lv-load-monitor-data) – Open low‑voltage substation monitoring dataset.
+
 ---
 
 ## 🧠 Real‑World Analogy  
@@ -243,6 +245,12 @@ ORDER BY avg_load DESC;
   ```
 - Delete Lambda function and IAM role.
 - Drop DynamoDB and Athena tables if no longer needed.
+
+---
+
+Due to the unavailability of Amazon QuickSight in the working environment, the remaining data analysis and visualisation were completed in MS Excel.
+
+Conclusion (from Excel line charts): The plotted time‑series (timestamp on X-axis and value on Y-axis) shows expected daily variation, with values rising and falling in a consistent pattern over the observation period. No sustained abnormal spikes or drops were observed, suggesting stable network behaviour within the monitored timeframe.
 
 ---
 
